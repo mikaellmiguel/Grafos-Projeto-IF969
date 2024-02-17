@@ -26,7 +26,7 @@ def prim(grafo: Grafo, vertice_inicial:int, tabela):
             mst.append((tabela["local"][parent[vertice]], tabela["local"][vertice], round(valor * 1000, 2)))
 
         for i in range(grafo.get_tamanho()):
-            if matriz[vertice][i] != 0:  # Se tiver aresta
+            if matriz[vertice][i] != -1:  # Se tiver aresta
                 if vertices_fila[i] and matriz[vertice][i] < custo[i]: # Se estiver na fila e o peso menor
                     custo[i] = matriz[vertice][i] # Substituindo o custo anterior pelo peso atual
                     parent[i] = vertice  # Substituindo o predecessor do vertice
