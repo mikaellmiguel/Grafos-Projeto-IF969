@@ -1,0 +1,105 @@
+﻿_id,rpa,regiao,bairro,local,qtdzonas,endereco,latitude,longitude
+1,1,CENTRO,Bairro do Recife,Avenida Alfredo Lisboa,1,"Avenida Alfredo Lisboa, em frente a Justiça Militar",-8.064406,-34.872095
+2,1,CENTRO,Bairro do Recife,Avenida Marquês de Olinda,1,Avenida Marquês de Olinda,-8.063311,-34.871705
+3,1,CENTRO,Bairro do Recife,Rua do Bom Jesus,1,"Rua do Bom Jesus, em frente ao N. 171",-8.06211,-34.87141
+4,1,CENTRO,Bairro do Recife,Avenida Rio Branco,4,Avenida Rio Branco,-8.062683,-34.873032
+5,1,CENTRO,Bairro do Recife,Praça do Arsenal,1,"Praça do Arsenal da Marinha, s/n – Bairro do Recife ",-8.061057,-34.871294
+6,1,CENTRO,Bairro do Recife,"Pça Marco Zero (Freq. 5Ghz, devido à interferência no local)",2,Avenida Alfredo Lisboa,-8.063304,-34.871003
+7,1,CENTRO,Bairro do Recife,Rua Madre de Deus,1,"Rua Madre de Deus, em frente a rua da Moeda",-8.06474,-34.87348
+8,1,CENTRO,Bairro do Recife,Emprel,1,"Rua do Brum, 123, Bairro do Recife",-8.05932,-34.87211
+9,1,CENTRO,Bairro do Recife,Rua da Guia,1,Rua da Guia ,-8.061337,-34.871626
+10,1,CENTRO,Bairro do Recife,Rua da Moeda,1,Rua da Moeda em frente ao N. 170,-8.064716,-34.873403
+11,1,CENTRO,Bairro do Recife,Rua Mariz e Barros,1,Próximo à esquina da Rua da moeda,-8.064472,-34.872085
+12,1,CENTRO,Bairro do Recife,Forte do Brum,1,"Praça da Comunidade Luso Brasileira, Bairro do Recife ",-8.052906,-34.870875
+13,1,CENTRO,Boa Vista,Mercado da Boa Vista,3,"Rua da Santa Cruz, 144 - Boa Vista",-8.063280,-34.888409
+14,1,CENTRO,Boa Vista,Policlínica Gouveia de Barros,1,"Largo da Santa Cruz, 140 - Boa Vista",-8.062069,-34.888101
+15,1,CENTRO,Coelhos,Praça Reginaldo Rossi,1,"Largo dos Coelhos,29 - Coelhos",-8.0685353,-34.889801
+16,1,CENTRO,Santo Amaro,Parque 13 de Maio,4,"Santo Amaro, só 1 funciona, problema nos rádios de enlace",-8.056035,-34.881836
+17,1,CENTRO,Santo Amaro,Policlínica Professor Waldemar de Oliveira,1,"Rua do Pombal, 115",-8.051961,-34.884920
+18,1,CENTRO,Santo Amaro,Rua da Aurora,1,"Rua da Aurora, em frente a Globo",-8.054775,-34.876833
+19,1,CENTRO,Santo Antônio,Casa da Cultura,3,"Rua do Cais da Detenção, S/N - Santo Antônio",-8.066003,-34.883227
+20,1,CENTRO,Santo Antônio,Em frente ao Correio,1,"Av. Guararapes, poste nº B018617 - Santo Antônio",-8.062677,-34.880220
+21,1,CENTRO,Santo Antônio,Praça do Diário,1,"Av. Dantas Barreto, Praça do Diário, poste nº C015004 ",-8.064351,-34.878176
+22,1,CENTRO,Santo Antônio,Praça da República,1,Em frente ao Palacio do Campo das Princesas - Santo Antônio,-8.060867,-34.877560
+23,1,CENTRO,São José,Forte Cinco Pontas,1,"Praça das Cinco Pontas, s/n",-8.071941,-34.880949
+24,1,CENTRO,São José,Conj. Habitacional Travessa do Gusmão,1,"Conj. Habitacional Travessa do Gusmão, nº 91, CEP 50020-520",-8.0720875,-34.8866914
+25,1,CENTRO,São José,Mercado São José ,6,"Praça Dom Vital, s/n - São José",-8.068499,-34.877635
+26,1,CENTRO,São José,Mercado de Santa Rita,5,"Cais Santa Rita, 600 - São José, Recife - PE, 50020-340",-8.06845,-34.87620
+27,1,CENTRO,São José,Pátio de São Pedro - Casa do Carnaval,1,Pátio de São Pedro-Casa 52- Último Andar  (Externo),-8.066952,-34.878698
+28,1,CENTRO,São José,Pátio de São Pedro - Acima da Casa 10,1,Pátio de São Pedro-Casa 10- Último Andar  (Externo),-8.066938,-34.879140
+29,2,NORTE,Água Fria,Policliníca Salomão Kelner,1,Estrada Velha de Água Fria N. 1652 –  Água Fria,-8.020760,-34.895832
+30,2,NORTE,Alto Santa Terezinha,Compaz Alto Santa Terezinha ,8,"Avenida Aníbal Benévolo, S/N - Alto Santa Terezinha",-8.010198,-34.902956
+31,2,NORTE,Bomba do Heméterio,Upinha Governador Eduardo Campos,1,"Rua Jacob, 160 - Bomba Do Hemetério",-8.024194,-34.899802
+32,2,NORTE,Campina do Barreto,Policlínica Amaury Coutinho,1,"Rua Iguatu, s/n - Campina do Barreto",-8.015833,-34.882142
+33,2,NORTE,Encruzilhada,Mercado da Encruzilhada,8,Rua Dr. José Maria – Encruzilhada,-8.037124,-34.892196
+34,2,NORTE,Hipódromo,Praça do Hipódromo ,1,Rua Fonseca Oliveira - Praça do Hipódromo,-8.032168,-34.886393
+35,2,NORTE,Linha do Tiro,Upinha Dra. Fernanda Wanderley,1,"Rua Uriel De Holanda, Lote II - Linha Do Tiro",-8.005394,-34.899989
+36,3,NOROESTE,Brejo de Beberibe,Upinha Dom Hélder Câmera,1,"Rua Grijalva Costa, 9, - Brejo de Beberibe",-8.002638,-34.919213
+37,3,NOROESTE,Casa Amarela,Biblioteca Municipal de Casa Amarela,1,"Rua Maj. Afonso Leal, 186 - Casa Amarela",-8.025229,-34.915929
+38,3,NOROESTE,Casa Amarela,Mercado de Casa Amarela,6,"Rua Padre Lemos, 1930 - Casa Amarela",-8.026798,-34.918147
+39,3,NOROESTE,Casa Amarela,Praça do Trabalho,1,"Avenida Norte, s/n, Casa Amarela",-8.022844,-34.914372
+40,3,NOROESTE,Casa Amarela,Sítio da Trindade ,1,"Estrada do Arraial, 3259 - Casa Amarela",-8.028302,-34.91175
+41,3,NOROESTE,Casa Amarela,Sítio da Trindade ,1,"Estrada do Arraial, 3259 - Casa Amarela",-8.028302,-34.91175
+42,3,NOROESTE,Casa Amarela,Upinha Dr. Moacyr André Gomes,1,"Avenida Norte, 5400 - Casa Amarela",-8.022505,-34.914353
+43,3,NOROESTE,Casa Forte,Centro Médico Senador Ermírio de Moraes,1,"Avenida Dezessete de Agosto, 2388 - Casa Forte",-8.028785,-34.925705
+44,3,NOROESTE,Derby,Praça do Derby,2,"Praça do Derby, S/N - Derby",-8.056313,-34.898942
+45,3,NOROESTE,Dois Irmãos,Praça Farias Neves,2,"Rua Manoel de Medeiros, Dois Irmãos – Em frente ao Lafepe",-8.015766,-34.944032
+46,3,NOROESTE,Graças,Parque Baobá,1,"Rua Madre Loiola, 2 - Graças",-8.041483,-34.904382
+47,3,NOROESTE,Guabiraba,Upinha Dr Hélio Mendonça,1,"Avenida da Recuperação, 6429 - Córrego do Jenipapo",-8.006541,-34.937444
+48,3,NOROESTE,Jaqueira,Parque da Jaqueira,8,"Rua do Futuro, 959 – Jaqueira",-8.037700,-34.905045
+49,3,NOROESTE,Macaxeira,Parque da Macaxeira,1,"Avenida Norte , s/n – Macaxeira",-8.016217,-34.931304
+50,3,NOROESTE,Morro da Conceição,Praça Morro da Conceição,1,Praça do Morro da Conceição,-8.019467,-34.914598
+52,3,NOROESTE,Santana,Parque Santana ,3,Rua Jorge Gomes de Sá – Santana,-8.041396,-34.917456
+53,4,OESTE ,Cordeiro,Arraial Bom Jesus,1,Rua Dezesseis de Outubro - Cordeiro,-8.057105,-34.930818
+54,4,OESTE ,Cordeiro,Compaz Ariano Suassuna,17,"Avenida Gen. San Martin, 1208 - Cordeiro",-8.060148,-34.925968
+55,4,OESTE ,Cordeiro,Mercado do Cordeiro,5,"Avenida Gen. San Martin, S/n – Cordeiro",-8.051979,-34.921436
+56,4,OESTE ,Engenho do Meio,Praça do Engenho do Meio.,1,"R. Antônio Curado, S/N - Engenho do Meio, Recife - PE, 50730-180",-8.057078,-34.942975
+57,4,OESTE ,Iputinga,Praça Vila União,1,Praça Nova Esperança - R. Sobral – Iputinga,-8.03072,-34.93292
+58,4,OESTE ,Iputinga,Centro de Saúde Dr. José Dustan,1,"Rua Santa Lúcia, 320 – Iputinga",-8.038617,-34.931002
+59,4,OESTE ,Iputinga,Parque do Caiara,2,"Av. Maurício de Nassau, 68, iputinga",-8.034886,-34.940390
+60,4,OESTE ,Madalena,Mercado da Madalena,8,"Rua Real da Torre, s/n – Madalena",-8.052303,-34.908665
+61,4,OESTE ,Madalena,Policlínica Lessa de Andrade,1,"Estrada dos Remédios, 2416 – Madalena",-8.058665,-34.907027
+62,4,OESTE ,Torre,Praça Prof. Campelo Barreto,1,"Praça Prof. Barreto Campelo, Torre, Recife-PE, CEP 50710-290",-8.047388,-34.914400
+63,4,OESTE ,Torrões,Praça Roda de Fogo,1,"Rua Artur Coutinho, esq. com a Rua Pedro de Sá,  Torrões",-8.058309,-34.937315
+64,4,OESTE ,Várzea,Praça Pinto Damásio,1,Av. Afonso olindense - Várzea,-8.048421,-34.959414
+65,5,SUDESTE,Afogados,Biblioteca de Afogados,1,Rua Jacira N. 1 – Afogados,-8.082281,-34.908077
+66,5,SUDESTE,Afogados,Maternidade Bandeira Filho,1,"Rua Londrina, s/n – Afogados",-8.078977,-34.910799
+67,5,SUDESTE,Afogados,Mercado de Afogados,1,"Estrada dos Remédios, S/N - Afogados ",-8.078282,-34.906574
+68,5,SUDESTE,Afogados,Policlínica Agamenon Magalhães,1,"Avenida Sul Gov. Cid Sampaio, S/N – Afogados",-8.080644,-34.905611
+70,5,SUDESTE,Curado,Jardim Botânico   Falta ligação entre o link e os rádios ,2,BR 232 – Km 7 – Curado,-8.076543,-34.965750
+71,5,SUDESTE,Curado,Centro de Saúde Bido Krause,1,3a Travessa Onze de Agosto – Curado,-8.079473,-34.970229
+72,5,SUDESTE,Jardim São Paulo,Praça de Jardim São Paulo,1,Praça de Jardim. São Paulo,-8.081628,-34.938393
+73,5,SUDESTE,Jardim São Paulo,Praça do EI Salvador,1,"Rua Aguanil, 310 - 372 - Jardim São Paulo",-8.080480,-34.940206
+74,5,SUDESTE,Mustardinha,Praça do ABC,1,"Rua Manoel antônio da Luz, em frente a escola Antônio de Brito Alves",-8.07348,-34.91847
+75,5,SUDESTE,San Martín,Praça de San Martín,1,"Avenida Gal San Martin, San Martin",-8.071073,-34.928815
+76,5,SUDESTE,Tejipió,Escola Municipal de Tejipió e a  Praça em frente da escola,1,"Rua Tutóia, 165 – Tejipió",-8.091948,-34.964498
+77,6,SUL,Boa Viagem,"Avenida Boa Viagem, 1º Jardim",1,"Avenida Boa Viagem, 1º Jardim",-8.102244,-34.885692
+78,6,SUL,Boa Viagem,"Avenida Boa Viagem, 2º Jardim",1,"Avenida Boa Viagem, 2º Jardim",-8.104915,-34.887012
+79,6,SUL,Boa Viagem,"Avenida Boa Viagem, 3º Jardim",1,"Avenida Boa Viagem, 3º Jardim",-8.108735,-34.888694
+80,6,SUL,Boa Viagem,Em frente ao Hotel Transamérica,1,"Avenida Boa Viagem,  nº 420,  em frente ao H. Transamérica",-8.095423,-34.882937
+81,6,SUL,Boa Viagem,Quiosque 3,1,Em frente as quadras de tênis,-8.099626,-34.884305
+82,6,SUL,Boa Viagem,Quiosque 16,1,"Avenida Boa Viagem,  nº 2632, Edf. Maria Francisca",-8.113746,-34.890985
+83,6,SUL,Boa Viagem,Quiosque 18,1,"Em frente ao Nº 2846, Padaria Boa Viagem",-8.115236,-34.892012
+84,6,SUL,Boa Viagem,Quiosque 20,1,"Av. Boa Viagem, em frente ao Nº 3232, Ed. Porto Bello",-8.116810,-34.892961
+85,6,SUL,Boa Viagem,Quiosque 22,1,"Avenida Boa Viagem, em frente ao Nº 3056, Ed. Acaiaca",-8.118492,-34.893928
+86,6,SUL,Boa Viagem,Quiosque 24,1,"Avenida Boa Viagem,em frente ao Nº 3472, Ed. Atlântico",-8.120235,-34.895040
+87,6,SUL,Boa Viagem,Quiosque 26,1,"Avenida Boa Viagem, em frente ao Nº 3650",-8.121804,-34.895838
+88,6,SUL,Boa Viagem,Quiosque 28,1,"Avenida Boa Viagem, em frente ao Nº 3854",-8.121850,-34.895862
+89,6,SUL,Boa Viagem,Quiosque 30,1,"Av. Boa Viagem, em frente ao Nº 4070 -Hotel Grand Mercure",-8.124823,-34.896946
+90,6,SUL,Boa Viagem,Quiosque 32,1,"Avenida Boa Viagem, em frente ao Nº 4268",-8.126840,-34.897702
+91,6,SUL,Boa Viagem,Quiosque 33,1,"Av. Boa Viagem, em frente ao Nº 4530   Ed. Castelinho",-8.128499,-34.898242
+92,6,SUL,Boa Viagem,Quiosque 34,1,"Avenida Boa Viagem, em frente ao Nº 2592",-8.129518,-34.898693
+93,6,SUL,Boa Viagem,Pracinha de Boa Viagem ,2,Rua Dr. Nilo Dornelas Câmara - Boa Viagem,-8.132074,-34.900409
+94,6,SUL,Boa Viagem,Quiosque 38,1,"Av. Boa Viagem, em frente à Rua Dr. Vicente Gomes",-8.133268,-34.900412
+95,6,SUL,Boa Viagem,Quiosque 45,1,"Av. Boa Viagem, em frente ao  nº 5740 Ed. Manoel de Brito",-8.138908,-34.902451
+96,6,SUL,Boa Viagem,Quiosque 51,1,"Av. Boa Viagem, em frente ao Nº 6370 Ed. Saint Honoré",-8.144343,-34.904712
+97,6,SUL,Boa Viagem,Parque Dona Lindu,3,"Avenida Boa Viagem, s/n - Boa Viagem",-8.141746,-34.903819
+98,6,SUL,Brasília Teimosa,Praia Buraco da Véia,1,Em frente ao Iate Clube do Recife,-8.080024,-34.876405
+99,6,SUL,Cohab,"Upinha Ur4/Ur5, Des. José Manoel de Freitas",1,"Rua Capitão Vicente Curado, 33-Cohab - Ur 04/05 - Ibura",-8.132065,-34.948247
+100,6,SUL,Cohab,"Pça UR1, em frente Esc. Maria Sampaio Lucena",1,"Av. Pernambuco _ Cohab, CEP 51280-000",-8.121373,-34.946269
+102,6,SUL,Ibura,Policlínica Arnaldo Marques,1,"Avenida Dois Rios, s/n – Ibura",-8.120389,-34.944194
+103,6,SUL,Imbiribeira,Ilha de Deus,1,"Rua Srg. Silvino de Macedo, 573, Imbiribeira",-8.113347,-34.906917
+104,6,SUL,Imbiribeira,Lagoa do Araçá,1,Imbiribeira,-8.095890,-34.913698
+105,6,SUL,Ipsep,Praça Mauricéia ,1,Rua Jean Emile Favre,-8.10800,-34.91640
+106,6,SUL,Jordão,Praça do Jordão Baixo,1,"Rua Alberto Lundgren, 2 - Jardim Jordão",-8.136671,-34.936865
+107,6,SUL,Pina,Policlínica Prof. Naíde Regueira Teodósio,1,"Avenida República do Líbano, 355 – Pina",-8.086077,-34.890425
