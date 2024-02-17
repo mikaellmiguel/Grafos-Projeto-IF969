@@ -21,7 +21,6 @@ class HeapMinimo:
 
         self.heap = heap
         self.tamanho = len(heap)
-        self.heapify()   # Construindo o Heap com as propriedades corretas
 
     # Auxilia na troca de dois elemetos do heap
     def trocar(self, i: int, j: int):

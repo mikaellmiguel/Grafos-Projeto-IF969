@@ -14,6 +14,7 @@ def prim(grafo: Grafo, vertice_inicial:int):
     # Fila de prioridade utilizando um Heap de Minimo, Heap ordenado com base no custo
     fila = HeapMinimo([[i, float("inf")] for i in range(grafo.get_tamanho())])
     fila.heap[vertice_inicial] = [vertice_inicial, 0] # Inserido o vertice inicial com custo 0 na fila
+    fila.heapify() # Ordenando a Fila
 
     while fila:
         vertice, valor = fila.remocao() # Extraindo o mínimo através do Heap
@@ -25,18 +26,3 @@ def prim(grafo: Grafo, vertice_inicial:int):
                     custo[i] = matriz[vertice][i] # Substituindo o custo anterior pelo peso atual
                     parent[i] = vertice  # Substituindo o predecessor do vertice
                     fila.alterar_chave(i, matriz[vertice][i])  # Alternado a chave na fila de prioridades
-
-    print(sum(custo))
-
-
-grafo = Grafo(5)
-
-grafo.add_aresta(0, 1, 2)
-grafo.add_aresta(0, 2, 1)
-grafo.add_aresta(0, 3, 6)
-grafo.add_aresta(0, 4, 3)
-grafo.add_aresta(1, 2, 3)
-grafo.add_aresta(1, 3, 4)
-grafo.add_aresta(2, 3, 5)
-
-prim(grafo, 0)
