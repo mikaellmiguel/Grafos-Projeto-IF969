@@ -154,3 +154,31 @@ class Interface:
         # Aba1 - Visualizador de grafos
 
         self.visualizar_grafos()
+
+        # Criando a Tabela que vai está contida na Aba2
+        self.table = ttk.Treeview(self.aba2, height=3, columns=("col1", "col2", "col3"))
+        self.table.heading("#0", text="")
+        self.table.heading("#1", text="Vertice1")
+        self.table.heading("#2", text="Vertice2")
+        self.table.heading("#3", text="Peso")
+
+        self.table.column("#0", width=0, minwidth=0)
+        self.table.column("#1", width=250, anchor="center")
+        self.table.column("#2", width=250, anchor="center")
+        self.table.column("#3", width=250, anchor="center")
+        
+        # Iniciar Integração de Dados
+
+        for data in self.mst:
+            self.table.insert("", END, values=data)
+
+        self.titulo_aba2 = Label(self.aba2, text="Os Pesos estão em Metros", fg="black",
+                             font=("Courier", 16, "bold"),bg="white", anchor="center")
+        self.titulo_aba2.place(relx=0, rely=0.03, relwidth=1)
+
+        # Exibição de Scroll
+        self.scrooltable = Scrollbar(self.aba2, orient="vertical", command=self.table.yview())
+        self.table.configure(yscrollcommand=self.scrooltable.set)
+
+        self.table.place(relx=0.08, rely=0.1, relwidth=0.8, relheight=0.8)
+        self.scrooltable.place(relx=0.95, rely=0.1, relwidth=0.03, relheight=0.89)
