@@ -189,3 +189,22 @@ class Interface:
         self.style.configure("Treeview", font=("Arial", 16))
         self.style.configure("Treeview.Heading", font=("Arial", 16, "bold"))
         self.style.configure('TNotebook.Tab', font=('Helvetica', 12, "bold"))
+    
+    def exibir_tela2(self):
+        self.item = self.selecao.selection()
+
+        if self.item:
+
+            item_index = self.selecao.index(self.item)
+
+            # Utlizando prim para obteção da MST
+            self.mst, self.custo = prim(self.grafo, item_index, self.database)
+            self.frame1.place_forget()
+            self.tela2()
+
+        else:
+            messagebox.showinfo("Seleção de Vertice - Aviso", "Selecione o Vertice Inicial Para Prosseguir")
+
+    def exibir_telaInicial(self):
+        self.frame2.place_forget()
+        self.tela_incial()
