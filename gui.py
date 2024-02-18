@@ -17,7 +17,7 @@ class Interface:
         self.root = Tk()
         self.configurar_root()
         self.tela_incial()
-        #self.sytles()
+        self.sytles()
         self.root.protocol("WM_DELETE_WINDOW", self.fechar_janela)
         self.root.mainloop()
 
@@ -44,7 +44,7 @@ class Interface:
 
         self.commando = Label(self.frame1, text="Escolha o Vertice Inicial",
                   bg="#cf1934", fg="white", font=("Corier", 14, "bold"), anchor="center")
-        
+
         self.objetivo = Label(self.frame1, text="""Objetivo: Transformar os dados em um Grafo e gerar uma MST, obtendo assim a melhor forma
         de conectar todos esses pontos de Wifi, utilizando a menor metragem de cabos de rede possivel.""",
                  bg="#cf1934", fg="white", font=("Corier", 12, "bold"), anchor="center")
@@ -71,7 +71,7 @@ class Interface:
 
 
         # Criando o botão que é responsavel por gerar mst
-        #self.button_mst = Button(self.frame1, text = "Gerar MST", font = ("Courier", 15), command = self.exibir_tela2, bd = 4)
+        self.button_mst = Button(self.frame1, text = "Gerar MST", font = ("Courier", 15), command = self.exibir_tela2, bd = 4)
 
         # Definindo posição na tela de cada elemento
         self.frame1.place(relx=0, rely=0, relheight=1, relwidth=1)
@@ -79,7 +79,7 @@ class Interface:
         self.descricao_inicial.place(relx=0.10, rely=0.10, relwidth=0.8)
         self.commando.place(relx=0.10, rely=0.18, relwidth=0.8)
         self.selecao.place(relx=0.10, rely=0.25, relwidth=0.8, relheight=0.55)
-        #self.button_mst.place(relx=0.45, rely=0.83, relwidth=0.10)
+        self.button_mst.place(relx=0.45, rely=0.83, relwidth=0.10)
         self.objetivo.place(relx=0.10, rely=0.9, relwidth=0.8)
         self.scroolselecao.place(relx=0.9,rely=0.25, relheight=0.55, relwidth=0.02)
 
@@ -87,7 +87,7 @@ class Interface:
         plt.close()
 
         grafo = nx.Graph()  # Inicializando o grafo
-        grafo.add_weighted_edges_from(self.mst) # Adicionando os vertices, arestas e pesos
+        #grafo.add_weighted_edges_from(self.mst) # Adicionando os vertices, arestas e pesos
 
         pos = nx.kamada_kawai_layout(grafo)  # Layout que calcula a posição dos vertices e arestas
         fig = plt.figure()
@@ -112,4 +112,45 @@ class Interface:
         # Inserido a barra de navegação
         toolbar = NavigationToolbar2Tk(canvas, self.aba1)
         toolbar.update()
-        canvas_widget.place(relx=0, rely=0, relwidth=1, relheight=1)    
+        canvas_widget.place(relx=0, rely=0, relwidth=1, relheight=1)
+
+    def tela2(self):
+        self.frame2 = Frame(self.root, bg="#cf1934")
+        self.frame2.place(relx=0, rely=0, relwidth=1, relheight=1)
+        
+        # Botão para voltar para a tela inicial
+        button_voltar = Button(self.frame2, text="Voltar", font=("Courier", 12), bg="white",
+                            command=self.exibir_telaInicial, bd=4)
+        button_voltar.place(relx=0.03, rely=0.03, relwidth=0.08)
+
+        # Frame que vai conter visualizações do grafo
+        self.framegraph = Frame(self.frame2, bg="white")
+        self.framegraph.place(relx=0.1, rely=0.1, relwidth=0.8, relheight=0.8)
+
+        # Label que contem o titulo
+        self.label_titulo = Label(self.frame2, text="Árvore Geradora de Custo Mínimo", fg="white",
+                             font=("Courier", 25, "bold"),
+                             bg="#cf1934")
+        self.label_titulo.place(relx=0.2, rely=0.03, relwidth=0.6)
+
+        # Label que contem o custo na MST
+        label_custo = Label(self.frame2, text=f"Custo Mínimo: {round(self.custo, 2)} Km", fg="white", font=("Courier", 25, "bold"),
+                              bg="#cf1934")
+        label_custo.place(relx=0.2, rely=0.92, relwidth=0.6)
+
+        # Criando uma navegação em abas
+        self.abas = ttk.Notebook(self.framegraph)
+        self.aba1 = Frame(self.abas)
+        self.aba2 = Frame(self.abas)
+
+        self.aba1.configure(bg="white")
+        self.aba2.configure(bg="white")
+
+        self.abas.add(self.aba1, text="Visualização em Grafo")
+        self.abas.add(self.aba2, text="Visualização em Tabela")
+
+        self.abas.place(relx=0, rely=0, relwidth=1, relheight=1)
+
+        # Aba1 - Visualizador de grafos
+
+        self.visualizar_grafos()
