@@ -182,3 +182,10 @@ class Interface:
 
         self.table.place(relx=0.08, rely=0.1, relwidth=0.8, relheight=0.8)
         self.scrooltable.place(relx=0.95, rely=0.1, relwidth=0.03, relheight=0.89)
+
+    # Configurando Estilos de alguns elementos
+    def sytles(self):
+        self.style = ttk.Style()
+        self.style.configure("Treeview", font=("Arial", 16))
+        self.style.configure("Treeview.Heading", font=("Arial", 16, "bold"))
+        self.style.configure('TNotebook.Tab', font=('Helvetica', 12, "bold"))
