@@ -82,3 +82,34 @@ class Interface:
         #self.button_mst.place(relx=0.45, rely=0.83, relwidth=0.10)
         self.objetivo.place(relx=0.10, rely=0.9, relwidth=0.8)
         self.scroolselecao.place(relx=0.9,rely=0.25, relheight=0.55, relwidth=0.02)
+
+    def visualizar_grafos(self):
+        plt.close()
+
+        grafo = nx.Graph()  # Inicializando o grafo
+        grafo.add_weighted_edges_from(self.mst) # Adicionando os vertices, arestas e pesos
+
+        pos = nx.kamada_kawai_layout(grafo)  # Layout que calcula a posição dos vertices e arestas
+        fig = plt.figure()
+        ax = fig.add_subplot(111)
+
+        # Desenhar os nós
+        nx.draw_networkx_nodes(grafo, pos, node_size=300, node_color='skyblue')
+
+        # Desenhar as arestas
+        nx.draw_networkx_edges(grafo, pos, alpha=0.5)
+
+        edge_labels = nx.get_edge_attributes(grafo, "weight") # Obtendo os pesos das arestas
+
+        nx.draw_networkx_edge_labels(grafo, pos, font_size=8, edge_labels=edge_labels)  # Desenhando os pesos
+        nx.draw_networkx_labels(grafo, pos, font_size=5, font_weight='bold')  # Desenhando os vertices
+
+        ax.axis('off')   # Tirando bordas
+
+        canvas = FigureCanvasTkAgg(fig, master=self.aba1)
+        canvas_widget = canvas.get_tk_widget()
+
+        # Inserido a barra de navegação
+        toolbar = NavigationToolbar2Tk(canvas, self.aba1)
+        toolbar.update()
+        canvas_widget.place(relx=0, rely=0, relwidth=1, relheight=1)    
