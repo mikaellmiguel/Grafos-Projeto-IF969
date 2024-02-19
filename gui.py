@@ -87,7 +87,7 @@ class Interface:
         plt.close()
 
         grafo = nx.Graph()  # Inicializando o grafo
-        #grafo.add_weighted_edges_from(self.mst) # Adicionando os vertices, arestas e pesos
+        grafo.add_weighted_edges_from(self.mst) # Adicionando os vertices, arestas e pesos
 
         pos = nx.kamada_kawai_layout(grafo)  # Layout que calcula a posição dos vertices e arestas
         fig = plt.figure()
